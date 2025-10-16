@@ -68,9 +68,9 @@ python main.py --dataset PAM --learn-emb --embed-time 128 --lr 0.01 --num-heads 
 @inproceedings{lee2025adaptive,
   title={Adaptive Time Encoding for Irregular Multivariate Time-Series Classification},
   author={Lee, Sangho and Min, Kyeongseo and Son, Youngdoo and Do, Hyungrok},
-  booktitle={Advances in Neural Information Processing Systems},
-  volume={38},
-  year={2025}
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  year={2025},
+  url={https://openreview.net/forum?id=l0kR6m9NDT}
 }
 ```
 
