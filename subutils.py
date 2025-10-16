@@ -68,8 +68,8 @@ def get_data_split(base_path, split_path, split_type='random', reverse=False, da
 def getStats(P_tensor):
     N, T, F = P_tensor.shape
     Pf = P_tensor.transpose((2, 0, 1)).reshape(F, -1)
-    mf = np.zeros((F, 1))
-    stdf = np.ones((F, 1))
+    mf = np.zeros((F,))
+    stdf = np.ones((F,))
     eps = 1e-7
     for f in range(F):
         vals_f = Pf[f, :]
