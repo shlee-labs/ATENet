@@ -1,6 +1,7 @@
-# Adaptive Time Encoding for Irregular Multivariate Time-Series Classification
+# ATENet (NeurIPS 2025)Adaptive Time Encoding for Irregular Multivariate Time-Series Classification
+---|---|
 
-📝 This repository is the official implementation of **Adaptive Time Encoding for Irregular Multivariate Time-Series Classification**. 
+📝 This repository is an official PyTorch implementation of **ATENet: [Adaptive Time Encoding for Irregular Multivariate Time-Series Classification](https://openreview.net/forum?id=l0kR6m9NDT&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2025%2FConference%2FAuthors%23your-submissions))**.
 
 > Contributions
 * We design a novel interpolation-based encoder-classifier framework that learns effective representations for irregular multivariate time-series classification.
