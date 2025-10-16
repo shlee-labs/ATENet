@@ -1,9 +1,8 @@
-# ATENet (NeurIPS 2025)Adaptive Time Encoding for Irregular Multivariate Time-Series Classification
----|---|
+# ATENet (NeurIPS 2025)
 
 📝 This repository is an official PyTorch implementation of **ATENet: [Adaptive Time Encoding for Irregular Multivariate Time-Series Classification](https://openreview.net/forum?id=l0kR6m9NDT&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2025%2FConference%2FAuthors%23your-submissions))**.
 
-> Contributions
+## Contributions
 * We design a novel interpolation-based encoder-classifier framework that learns effective representations for irregular multivariate time-series classification.
 * Our encoding approach directly learns reference points, rather than manually finding the optimal ones, to capture underlying patterns within irregular time series.
 * We introduce temporal and intervariable consistency regularization terms to explicitly consider intricate temporal dynamics and relationships across variables.
@@ -63,7 +62,17 @@ python main.py --dataset PAM --learn-emb --embed-time 128 --lr 0.01 --num-heads 
 
 * *You can implement all baseline methods using the source codes provided by [Raindrop](https://github.com/mims-harvard/Raindrop).*
 
+## Citation
 
+```
+@inproceedings{lee2025adaptive,
+  title={Adaptive Time Encoding for Irregular Multivariate Time-Series Classification},
+  author={Lee, Sangho and Min, Kyeongseo and Son, Youngdoo and Do, Hyungrok},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={38},
+  year={2025}
+}
+```
 
 ## Contributing
 The code for ATENet is implemented based on the official code of [Raindrop](https://github.com/mims-harvard/Raindrop).
